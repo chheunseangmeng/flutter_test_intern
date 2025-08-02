@@ -155,7 +155,7 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-// PUT /products?id=123
+// PUT /products?id=1
 exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.query;
@@ -212,6 +212,7 @@ exports.updateProduct = async (req, res) => {
     });
   }
 };
+
 
 // DELETE /products?id=123
 exports.deleteProduct = async (req, res) => {
